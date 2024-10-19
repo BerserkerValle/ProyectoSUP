@@ -28,7 +28,7 @@ db.Sequelize = Sequelize;
 db.sequelize = sequelize;
  //para mandar al servidor
 
-db.Departamento = require('../models/departamento.js')(sequelize, Sequelize);
+db.Customer = require('../models/Customer.js')(sequelize, Sequelize);
 db.Usuario = require('../models/usuario.js')(sequelize, Sequelize);
 
 
